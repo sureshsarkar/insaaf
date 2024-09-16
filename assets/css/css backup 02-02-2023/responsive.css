@@ -1,0 +1,23 @@
+
+@media only screen and (min-width:200px) and (max-width:768px)  {
+
+    .law_control {
+    	width: 100%;
+    }
+.search_law {
+    right: 0;
+    position: absolute;
+    z-index: 9999;
+    width: 50px;
+    top: 16px;
+}
+}
+
+
+@media only screen and (min-width:10px) and (max-width:748px)  {
+
+    .law_client img {
+      width: 60px;
+    }
+}
+

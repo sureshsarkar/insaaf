@@ -1,0 +1,678 @@
+.benifitImgbox_cls,
+.header_mobile_home,
+.icon_text_mobie,
+.minu,
+pull {
+    display: flex;
+    display: flex
+}
+
+.sticky-top.__view_desktop {
+    display: none !important
+}
+
+section.__view_mobile.__bg_view_top {
+    display: none
+}
+
+section.phone_section {
+    position: fixed;
+    top: 152px;
+    right: 15px;
+    color: #fff !important;
+    display: none
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(#4f60df, #cacef9);
+    overflow-x: hidden;
+    transition: .5s;
+    z-index: 99999
+}
+
+.overlay-content {
+    position: relative;
+    top: 18%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff !important
+}
+
+.overlay a {
+    padding: 11px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s;
+    border-bottom: 2px dotted #fff;
+    font-size: 30px
+}
+
+.overlay a:focus,
+.overlay a:hover {
+    color: #f1f1f1
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    border: none
+}
+
+@media screen and (max-height:450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px
+    }
+}
+
+span.menu_icons img {
+    width: 80%;
+    filter: invert(1)
+}
+
+.login,
+.logo_side,
+.menu_home {
+    width: 20%;
+    margin-top: auto;
+    margin-bottom: auto
+}
+
+.logo_side img,
+.one_img_prod img {
+    width: 80%
+}
+
+.login img,
+.one_services_img img {
+    width: 60%
+}
+
+.header_mobile_home {
+    justify-content: space-between
+}
+
+section.bg_mobile_home {
+    background: linear-gradient(#cacef9, #4f60df);
+    padding: 10px 0
+}
+
+.banner_images {
+    padding: 25px
+}
+
+.banner_images img {
+    width: 100%
+}
+
+section.bg_mobile_home2 {
+    background: linear-gradient(#4f60df, #cacef9);
+    padding: 10px 0
+}
+
+.banner_images p {
+    text-align: center;
+    color: #fff;
+    font-weight: 600
+}
+
+.___chat__online_ppc img {
+    width: 20px !important
+}
+
+.___chat__online2 {
+    padding: .6rem;
+    background: rgb(6 14 69);
+    width: 350px;
+    color: rgb(255 255 255);
+    border-radius: 30px
+}
+
+section.bg_main_full {
+    background: #fff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    position: relative;
+    top: -67px
+}
+
+pull {
+    height: 22px;
+    justify-content: center;
+    align-items: center;
+    z-index: 8;
+    position: relative;
+    overflow: hidden
+}
+
+pull>i {
+    display: block;
+    height: 7px;
+    width: 44px;
+    background: #bed2ee;
+    box-shadow: 0 0 0 2px #8f9eab;
+    margin-top: 7px;
+    margin-top: unset;
+    border-radius: 20px
+}
+
+.bg_clor_talk_toLawy {
+    background: #e4f5ff;
+    margin: 10px;
+    padding: 20px 10px;
+    border-radius: 20px
+}
+
+.talk_lawyer_text2 img {
+    width: 30%
+}
+
+.talk_lawyer_text2 {
+    text-align: end;
+    margin: auto
+}
+
+.icon_img,
+.talk_layer_icon {
+    margin: auto
+}
+
+.talk_lawyer_text {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 190px !important
+}
+
+.talk_layer_icon img {
+    background: #1c1c1c;
+    padding: 10px;
+    width: 88%;
+    border-radius: 10px;
+    filter: invert(1)
+}
+
+.talk_lawyer_text small {
+    font-size: 9px;
+    font-weight: 600
+}
+
+.get_discount p,
+.pheragrap_discuss span,
+.tag_line p {
+    font-weight: 700
+}
+
+.tag_line p {
+    text-align: center;
+    color: green
+}
+
+.pheragrap_discuss p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 0
+}
+
+.get_discount p,
+.how_it_work h4,
+.how_it_work p,
+.min_text del,
+.one_services_img,
+.spical_offer,
+.txt_services__ p {
+    text-align: center
+}
+
+.spical_offer img {
+    width: 65%
+}
+
+.get_discount p {
+    margin: 0
+}
+
+.how_it_work h4,
+.servics__ h4 {
+    font-weight: 600;
+    color: #081046
+}
+
+.get_discount {
+    padding-top: 1rem
+}
+
+section.bg_how_full_width {
+    background: #e4f5ff;
+    padding: 15px 10px
+}
+
+.icon_img img {
+    width: 100%;
+    outline: #081046 dotted 5px;
+    border-radius: 50%;
+    outline-offset: 10px
+}
+
+.icon_text_mobie {
+    margin-top: 2rem
+}
+
+.text_inr {
+    font-size: 14px;
+    padding-left: 30px
+}
+
+.how_it_work h4 {
+    margin-bottom: 2rem
+}
+
+.min_text p,
+.text_inr p {
+    margin: 0
+}
+
+.servics__ h4 {
+    margin-top: 2rem
+}
+
+.one_services_img {
+    margin-top: 1rem
+}
+
+.txt_services__ p {
+    font-size: 12px;
+    font-weight: 700
+}
+
+.how_it_work p {
+    padding-top: 10px;
+    font-size: 18px;
+    color: #081046
+}
+
+.minu {
+    width: 100%;
+    justify-content: space-between
+}
+
+.time_min {
+    margin: auto 0
+}
+
+.time_min p {
+    background: #dfdfdf;
+    padding: 7px 20px;
+    border-radius: 10px;
+    font-size: 37px;
+    font-weight: 600;
+    color: #081046
+}
+
+.min_text del {
+    display: block;
+    border-top: 1px dotted #081046
+}
+
+.talk_lawyer_BG2 {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000;
+    margin: .9rem 0
+}
+
+.bus_btn_time button {
+    width: 100%;
+    margin-top: 1rem;
+    background: #e4f5ff;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #081046;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 3px
+}
+
+.carintitle h3,
+.name_prod {
+    text-align: center;
+    font-weight: 700
+}
+
+.one_img_prod {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, .24) 0 3px 8px;
+    text-align: center;
+    padding: 9px 2px;
+    border-radius: 10px
+}
+
+.name_prod {
+    font-size: 9px;
+    padding-top: 7px;
+    color: #081046
+}
+
+a {
+    text-decoration: none !important
+}
+
+.benifitImgbox_cls {
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    margin-bottom: 11px;
+    background: #f1f1f1
+}
+
+.carintitle h3 {
+    font-size: 1.2rem
+}
+
+/* countdown css  */
+.spical_offer._btnTalk p {
+    font-size: 22px!important;
+    margin: 0;
+    font-weight: bold;
+    color: rgb(90 83 83);
+}
+.spical_offer._btnTalk {
+    width: 100%;
+}
+.spcial_offer {
+    text-align: end;
+    width: 40%;
+}
+.disply_flx_spcial_offer {
+    display: flex;
+    justify-content: space-between !important;
+    border: 2px dotted #ffcb31;
+    padding: 5px;
+}
+.spical_offer._btnTalk span {
+    color: #ffcb31;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 30px
+}
+.bummper_discount span del {
+    color: #db2a2a;
+    font-size: 16px;
+}
+.bummper_discount span {
+    font-size: 25px;
+    font-weight: 700;
+    color: green;
+}
+.spcial_offer img {
+    width: 100%;
+}
+.bummper_discount {
+    text-align: center;
+}
+.bummper_discount p {
+    margin: 0;
+    font-weight: 600;
+}
+.bummper_discount small {
+    color: green;
+    font-weight: 500;
+}
+.get_now_button button {
+    background: #ffcb31;
+    border: none;
+    width: 100%;
+    margin-top: 12px;
+    border-radius: 10px;
+    padding: 4px;
+    font-weight: 600;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+
+/* End countdown css  */
+
+/* css for rating section  */
+
+.product-number {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+    margin-bottom: 12px;
+    padding: 14px 0px;
+}
+.ma_dix {
+    display: flex;
+    justify-content: space-around;
+}
+.ma_dix span {
+    font-weight: 700;
+}
+.image_google img {
+    width: 70%;
+}
+span.rating_text {
+    font-size: 14px;
+    padding-right: 10px;
+    color: gray;
+}
+.text_case_resolved p {
+    color: gray;
+    font-size: 12px;
+}
+
+.text_case_resolved h4 {
+    font-weight: 600;
+}
+.text_case_resolved {
+    padding: 0px 10px;
+}
+.google_rating_review h4 {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 11px;
+}
+.google_rating_review img {
+    width: 22%;
+}
+.google_rating_review {
+    background: #e4f5ff;
+    display: flex;
+    padding: 0px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.custormer_reviews {
+    background: #e4f5ff;
+    padding: 0px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.review_text p {
+    font-size: 14px;
+    padding-top: 10px;
+    margin: 0;
+    font-weight: 500;
+}
+.Icon__IconContainer {
+    width: 30%;
+}
+
+.Icon__IconContainer img {
+    width: 100%;
+}
+.rating_posted_on_google {
+    display: flex;
+}
+.ReviewSource__ {
+    margin: auto 10px;
+}
+
+.ReviewSource__ p {
+    margin: 0;
+    font-weight: 600;
+}
+.custome_details {
+    display: flex;
+    margin-bottom: 20px;
+}
+.customer_img_on_review img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.customer_name h6 {
+    margin: 0;
+}
+.customer_name p {
+    margin: 0;
+}
+.customer_name {
+    margin: auto 14px;
+}
+
+/* End $$$$$$$$$$$$$$$$$$$$$$$$  */
+
+/* lawyer list css  */
+.lawyer_list_bg {
+    background: #e4f5ff;
+}
+.dis_flc {
+    display: flex;
+}
+.lawyer_img img {
+    width: 50px !important;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.lawyer_list_bg {
+    background: white;
+    margin-left: 10px;
+    padding: 7px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 3px 4px;
+}
+.rating_layer p {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 700;
+}
+.rating_layer img {
+    width: 10px !important;
+    height: 10px !important;
+}
+.rating_layer {
+    background: white;
+    border: 1px solid #fbc72c;
+    display: flex;
+    position: relative;
+    top: -11px;
+    left: 2px;
+    padding: 0px 5px;
+    border-radius: 23px;
+    text-align: center;
+    justify-content: center;
+}
+.side_text_lawyer_list p {
+    margin: 4px 0px 0px 0px;
+    color: gray;
+}
+.side_text_lawyer_list {
+    padding-left: 11px;
+    width: 100%;
+}
+.side_text_lawyer_list h4 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+}
+.expriences p {
+    margin: 0;
+    padding-left: 9px;
+}
+
+.expriences img {
+    width: 10% !important;
+    fill: gray !important;
+}
+.expriences {
+    display: flex;
+}
+.button_lawyer_list img {
+    outline: 2px solid green;
+    border-radius: 50%;
+    width: 57% !important;
+    outline-offset: 2px;
+    margin-left: 0px;
+    margin-top: 3px;
+}
+
+.button_lawyer_list {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 5px;
+    
+}
+img.list_chat_lawyer {
+    outline: 2px solid #fbc72c;
+}
+.welcome_lawyer p small {
+    font-weight: 700;
+}
+.welcome_lawyer p {
+    background: #fbc72c;
+    padding: 0px 2px;
+}
+.welcome_lawyer {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.main_heading_lawyer_list h5 {
+    text-align: center;
+    margin-bottom: 11px;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+.view_all_lawyer_list button {
+    background: #fbc72c;
+    margin: auto;
+    border: none;
+    padding: 4px 16px;
+    color: black !important;
+    font-weight: 500;
+    margin-top: 1rem;
+    font-size: 18px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 10px;
+}
+.view_all_lawyer_list button a {
+   text-decoration: none;
+   color: black;
+}
+/* End $$$$$$$$$$$$$$$$$$  */

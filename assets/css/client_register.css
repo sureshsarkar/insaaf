@@ -1,0 +1,100 @@
+.border {
+    border: 1px solid red;
+}
+
+.show_otp {
+    display: none;
+}
+
+.hide_but {
+    display: none;
+}
+
+.mp-2 {
+    padding: 0px;
+    /* margin: 1px 0px 3px 15px; */
+}
+
+._btn_sha {
+    box-shadow: 3px 3px 5px -1px #7c7373;
+}
+
+.mar {
+    color: #b07c4b;
+    margin-left: 4px;
+}
+
+.GIF_hide {
+    display: none;
+}
+
+.__formHide {
+    display: block;
+}
+
+.hide_email {
+    display: none;
+}
+
+#sendotp_email {
+    display: none;
+}
+
+#email_otp {
+    display: none;
+}
+
+
+#verifyemailotp {
+    display: none;
+}
+
+.set_pass_eye {
+    position: absolute;
+    top: 42px;
+    right: 40px;
+}
+
+.set_pass_eye_cl {
+    position: absolute;
+    top: 27px !important;
+    right: 40px;
+}
+
+/* forgot password  start*/
+.hide_sec_cforgot {
+    display: none;
+}
+
+.sendotp_email_forgot_pass {
+    display: none;
+}
+
+#resend_otp_forgot {
+    display: none;
+}
+
+#email_otp_forgot {
+    display: none;
+}
+
+#verifyotpforgot {
+    display: none;
+}
+
+.forgot_pass_button {
+    display: none;
+}
+
+.start_Form {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 900px) {
+    .start_Form {
+        width: 100% !important;
+
+    }
+}

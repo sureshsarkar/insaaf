@@ -1,0 +1,100 @@
+@media screen and (max-width: 747px) {
+    .law_img {
+        display: none;
+    }
+}
+
+.border {
+    border: 1px solid red;
+}
+
+.show_otp {
+    display: none;
+}
+
+.hide_but {
+    display: none;
+}
+
+#check {
+    font-style: oblique;
+    color: black;
+    padding-bottom: 14px;
+}
+
+#sel-cont {
+    width: 600px;
+    margin: 100px auto;
+}
+
+#sel-cont .chosen-container-multi .chosen-choices {
+    border: 1px solid #aaa;
+    padding: 0 2px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#sel-cont .chosen-container-active .chosen-choices {
+    border: 1px solid #ccc;
+}
+
+.chosen-container {
+    width: 100%;
+}
+
+._pointer {
+    cursor: pointer;
+}
+
+.hide_email {
+    display: none;
+}
+
+#sendotp_email {
+    display: none;
+}
+
+#email_otp {
+    display: none;
+}
+
+#verifyemailotp {
+    display: none;
+}
+
+.re_pass_eye_lw {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+
+.click_eye {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+
+.hide_sec_cforgot {
+    display: none;
+}
+
+.sendotp_email_forgot_pass {
+    display: none;
+}
+
+#resend_otp_forgot {
+    display: none;
+}
+
+#email_otp_forgot {
+    display: none;
+}
+
+#verifyotpforgot {
+    display: none;
+}
+
+.forgot_pass_button {
+    display: none;
+}

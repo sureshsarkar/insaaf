@@ -1,0 +1,58 @@
+input[type=text], [type=email], [type=password] {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 45%;
+    margin: 8px 0;
+    padding: 10px 0;
+    margin-left: 5px;
+    font-size: 1rem;
+}
+input[type=number] {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin: 8px 0;
+    padding: 10px 0;
+    width: 45%;
+    margin-left: 5px;
+}
+.form-check {
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+    margin-bottom: 0;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.__sameCallInsaff {
+    margin: 1rem;
+}
+.dropdown-menu {
+    max-height: 548px;
+    overflow-y: scroll;
+}
+.copyrig_fo_imh {
+    padding-top: 12px;
+    padding-bottom: 1rem;
+}
+
+.for_flc_cpodlf {
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-top: 1px solid gray;
+}
+.lawClick {
+    color: #fff;
+    padding: 0.4rem;
+    border: 1px solid #fff;
+}

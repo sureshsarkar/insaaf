@@ -1,0 +1,123 @@
+.main_form_con{
+       background-color: #fbc72c;
+           z-index: 10;
+        position: relative;
+    }
+
+    .main_form_con.activeNow{
+        background-color: #daf4ff;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+        height: 100vh;
+    }
+    ._btnClose{
+        position: absolute;
+        right: 32px;
+        top: 34px;
+        font-size: 39px;
+        color: #edbfbc;
+        cursor: pointer;
+        display: none;
+    }
+    .activeNow ._btnClose{
+        display: block;
+        z-index: 9999;
+    }
+    .btn-themeCall {
+    padding: 4px 37px;
+    border-radius: 16px;
+    border: 2px solid #ffffff;
+    background: #1a243f;
+    color: #ffff;
+    }
+
+
+    /*timming css ========================================================*/
+    input[type=radio] {
+    box-sizing: border-box !important;
+    padding: 0 !important;
+    display: none !important;
+    }
+
+    .dateBtnStyle {
+        /* width: 65px; */
+        border: 1px solid #060e45;
+        color: #060e45;
+        /* border-radius: 55%; */
+        /* height: 39px; */
+        width: 78px;
+    }
+
+    .active {
+        background: #060e45 !important;
+    }
+
+    .slot_date_div:hover {
+        background: #060e45 !important;
+
+    }
+
+
+
+
+    .disabled {
+        pointer-events: none !important;
+        border: 1px solid red;
+        /* background: #ff000b!important; */
+        color: #ff000b !important;
+    }
+
+    #inputCategory {
+        height: 47px !important;
+    }
+
+
+
+
+    .main_conslt_heding h3 img {
+        width: 10%;
+    }
+
+    .main_conslt_heding.text-center p {
+        margin-bottom: 0;
+    }
+
+    .chng_emil_box label {
+        color: #060e45;
+    }
+
+    .chng_emil_box input {
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 4px;
+    }
+
+    .chng_emil_box select {
+        border-radius: 10px !important;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 4px !important;
+    }
+
+
+    ._clickBack {
+        width: 100%;
+        display: flex;
+    }
+
+    .btnColor {
+        background: #00014a;
+        color: white;
+    }
+
+    .textInfo {
+        font-size: 11px;
+        color: #90a0aa;
+    }
+@media only screen and (min-width:0px) and (max-width:768px) {
+    .footerMobileCall{
+        position: fixed;
+        bottom: 9px;
+        left: 0px;
+        z-index: 9;
+    }
+}

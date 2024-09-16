@@ -1,0 +1,23 @@
+@media only screen and (min-width: 768px) and (max-width:3000px) {
+    .__view_mobile {
+        display: none;
+    }
+
+    .__view_desktop {
+        display: block!important;
+    }
+
+    .slot_book {
+        display: none;
+    }
+
+    .section_view_mobile {
+        display: none;
+    }
+}
+.__bg_view_top {
+    position: fixed;
+    width: 100%;
+    z-index: 999999999;
+    background: #fff;
+}

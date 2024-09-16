@@ -1,0 +1,86 @@
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+/*circular progressbasr css*/
+
+
+@keyframes growProgressBar {
+  0%, 33% { --pgPercentage: 0; }
+  100% { --pgPercentage: var(--value); }
+}
+
+@property --pgPercentage {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0;
+}
+
+div[role="progressbar"] {
+  --size: 12rem;
+  --fg: #ff9800;
+  --bg: #def;
+  --pgPercentage: var(--value);
+  animation: growProgressBar 3s 1 forwards;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: 
+    radial-gradient(closest-side, white 80%, transparent 0 99.9%, white 0),
+    conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
+    ;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: calc(var(--size) / 5);
+  color: var(--fg);
+}
+
+
+
+.sdjfhilsjh {
+  padding: 10px;
+}
+/*end circular progressbasr css*/
+
+
+.py-2{
+  padding: 20px 0px;
+}
+.px-2{
+  padding: 0 20px;
+}
+.themeBox1{
+  background: white;
+    padding: 11px 26px;
+    margin-bottom: 15px;
+}
+
+.themeBox2{
+  background: white;
+    padding: 11px 10px;
+    margin-bottom: 15px;
+}
+.blink_now {
+  background-color: green;
+  animation: blinker 1s linear infinite;
+}
+
+.categoryListCon{
+      height: 400px;
+    overflow-y: scroll;
+}
+.bg-danger-2{
+  background: #fb7e57!important;
+  color: #ffff;
+}
+.p-3{
+  padding: 8px;
+}

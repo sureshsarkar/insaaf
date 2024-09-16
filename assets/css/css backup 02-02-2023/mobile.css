@@ -1,0 +1,362 @@
+
+
+/*mobile css header*/
+
+.___my_fix   {
+  width: 44px;
+  margin-left: 4px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  background-color:#1a243f!important;
+  overflow-x: hidden;
+
+
+}
+
+.sidenav a {
+
+  text-decoration: none;
+  color: #021855;
+  display: block;
+
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  z-index: 999999;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 759px) {
+
+  .sidenav a {   
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #fff;
+    
+  }
+  .mega_link{
+    background-color: #ff9100;
+    border-bottom: 1px solid white;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 100px)  {
+
+  .pulse{   
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 7px;
+      display: block;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: #2ca9cc;
+      cursor: pointer;
+      box-shadow: 0 0 0 rgb(204 169 44 / 40%);
+      animation: pulse 1s infinite;
+      line-height: 10px;
+      font-weight: 600;
+      padding-top: 13px;
+      font-family: system-ui;
+      text-align: center;
+      margin-left: 11px;
+  }
+  .___corner {
+    font-size: 8px;
+}
+
+}
+
+.lawyerLogin123 {
+    color: #fff!important;
+    background: transparent;
+    border: 1px solid #ffffff;
+}
+
+.__over12465978  {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+
+.insaafSecondary{
+    font-size: 1.5rem;
+    margin-left: 16px;
+    font-weight: 700;
+}
+
+.logoMobile img {
+    width: 38px;
+    top: -3px;
+    margin-top: -10px;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width:768px) {
+   .__view_desktop {
+    display: none!important;
+   }
+   .__view_mobile  {
+    display: block;
+   }
+   .Law_each {
+    height: auto;
+   }
+   .padunset {
+    padding: unset!important;
+   }
+  .text-rainbow-animation {
+    position: absolute;
+    font-size: 22px;
+    transform: translate(-472%, 210%);
+
+  }
+  .text-rainbow-animation1 {
+    position: absolute;
+    font-size: 16px;
+    transform: translate(22%, 236%);
+
+}
+.__bg_payment  {
+  margin-top: 30px;
+}
+.mobileSpace {
+  margin-top: 50px;
+}
+
+.__bg_box_under  {
+  margin: 0px;
+}
+._leftcontent h1  {
+  font-size: 1rem;
+  width: 100%;
+  margin-top: 23px;
+}
+.__slot_inner {
+    width: 100%;
+}
+.base_ {
+  color: #000;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+._leftcontent {
+  display: block !important;
+  flex-direction: column;
+  justify-content: center;
+  height: auto !important;
+}
+.Our_talk {
+  font-size: 0.6rem;
+}
+.__slot_inner .btn {
+  width: 47% !important;
+  background: #f3d078;
+  background: -webkit-linear-gradient(top,#f7dfa5,#f0c14b);
+  background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+  box-shadow: 0 1px 0 rgb(255 255 255 / 40%) inset;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 60%) inset;
+  border-radius: 2px;
+  text-align: center;
+  border-color: #777474;
+  color: #000;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 10px !important;
+}
+.__bg_box_under {
+  margin-bottom: 2rem;
+}
+.law_client h4 {
+  font-size: 1.2rem;
+}
+
+.___spce_87532 {
+  margin-bottom: 40px;
+}
+.circle_roll  {
+  width: 70px;
+  height: 70px;
+}
+
+._bg_content_{
+  padding-top: 4rem;
+}
+
+#myBtn{
+  display: none!important;
+}
+
+.slot_book {
+      color: #fff;
+    background: #0099cb;
+    position: fixed;
+    z-index: 9999999999999999;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.slot_book a {
+      color: #fff;
+
+}
+.section_view_desktop  {
+  display: none;
+}
+
+.__query_call  {
+  display: grid;
+}
+.___online_Legal {
+    background: #95fffc;
+    font-size: 0.8rem;
+    }
+.insaf_Base132 {
+    font-size: 0.8rem;
+}
+.base_321465978 {
+    font-size: 0.8rem;
+    }
+    .main_box_little4653{
+      margin-top: 30px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:3000px) {
+   .__view_mobile {
+    display: none;
+   }
+    .__view_desktop {
+    display: block!important;
+   }
+   .slot_book  {
+    display: none;
+   }
+
+   .section_view_mobile  {
+    display: none;
+   }
+
+   
+}
+
+
+
+
+.mobileSearch[type=text] {
+    /* font-size: 0rem; */
+       border-radius: 100%;
+       width: 18px;
+       box-sizing: border-box;
+       border: 0;
+       border-radius: 3%;
+       font-size: 14px;
+       background-color: white;
+       background-image: url(../images/search.png);
+       background-position: 10px 12px;
+       background-repeat: no-repeat;
+       padding: 12px 4px 12px 40px;
+       -webkit-transition: width 0.4s ease-in-out;
+       transition: width 0.4s ease-in-out;
+       float: right;
+       position: absolute;
+       top: -8px;
+       border-left: 1px solid #ccc;
+       right: 0;
+       text-indent: 22px;
+
+}
+
+.mobileSearch[type=text]:focus {
+  width: 100%;
+      outline: 0;
+}
+.menu_border {
+  border-bottom: 1px solid #6c6c6c;
+}
+ .topBg4355 {
+  margin: auto;
+  background: #1a243f;
+  padding-top: 44px;
+  padding-bottom: 18px;
+  text-align: center;
+  vertical-align: middle;
+
+ }
+ .li_line .nav-item {
+     margin-bottom: 12px;
+      border-bottom: 1px dotted #8d8888;
+ }
+
+
+ .__bg_view_top{
+      position: fixed;
+    width: 100%;
+    z-index: 999999999;
+    background: #fff;
+
+ }
+
+
+
+.___consult p {
+    writing-mode: vertical-rl; 
+}
+.___consult  a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.___consult  {
+  position: fixed;
+  border-top: 4px solid #ff9100;
+  right: 0;
+  z-index: 99999999999999;
+  top: 40%;
+  color: #fff;
+  height: auto;
+  padding-top: 14px;
+  padding-bottom: 20px;
+  vertical-align: middle;
+  line-height: 1;
+  /* font-size: 1.2rem; */
+  /* background-image: linear-gradient(to right top, #014207, #006d10, #009b19, #00cc23, #00ff2c); */
+  background: #021036;
+  font-weight: 700;
+}
+.slide-topfooter {
+  -webkit-animation: slide-top 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+          animation: slide-top 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+}
+
+@-webkit-keyframes slide-topfooter {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+}
+@keyframes slide-topfooter {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+}

@@ -1,0 +1,31 @@
+
+Gmail : insaaf99.com@gmail.com
+Recovery Email  : admin@insaaf99.com
+Password : Jkm@2022
+Mobile : 9870103441
+
+BusinessName  : insaaf99.com
+
+Facebook ID : info@insaaf99.com
+Password : nitin@insaaf
+
+Full Name : insaaf com
+
+API Key : 0sUQ6RVgeCguGDXjrZENOWiyAK
+Address : https://waba.360dialog.io
+
+Whatsapp API key : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMjk1ZTBmMzY1YmViNTNiNzVjNzZhMiIsIm5hbWUiOiJpbnNhYWY5OS5jb20iLCJhcHBOYW1lIjoiQWlTZW5zeSIsImNsaWVudElkIjoiNjMyOTVkZjc2ZGM5ZDA1M2JkMmYwMDRjIiwiYWN0aXZlUGxhbiI6IkJBU0lDX1RSSUFMIiwiaWF0IjoxNjYzNjU1NDM5fQ.VJLdKgG4-PUASgeydImLUZlTVoXosvvZYKDRLXsP7R0
+
+Template name : signup_message
+
+Post Name 
+Recovery Email  : admin@insaaf99.com
+Password : Jkm@2022
+
+
+Login with Google
+
+Client ID : 873984176995-hkbspiu4pmrdef7kfqhs1f7f9sf5snei.apps.googleusercontent.com
+            136586390399-tsqnvplpomucc01j3mbajc9acb71cq47.apps.googleusercontent.com
+Client secret: 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
+               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

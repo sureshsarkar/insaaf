@@ -1,0 +1,55 @@
+login page
+
+we have put number & password but do not register on this 
+
+Get msg "Mobile number mistmatch!!" replace to "phone number does not exist"
+
+if we have enter phone number only & not fill pin
+Get Msg "Enter valid PIN" Replace to "Enter pin"
+
+If we have enter 0-9 digit phone number with pasword 
+Get Msg "Enter Phone number" replace to "Enter 10 digit Phone number"
+
+If we have entered correct phone number with wrong password
+Get Msg "Pin mistmatch!!" replace to "wrong password"
+
+
+
+Forgot password
+If we have enter 0-9 digit phone number
+Get Msg "Enter Phone number" replace to "Enter 10 digit Phone number"
+
+If we have entered wrong phone number with 10 digit & dont have registered
+Get Msg "Enter Phone number" "Phone number not exist!" replace to "Phone number does not exist!"
+
+If we have entered correct phone number with 10 digit 
+Get Msg "Enter Phone number" please remove this after that get correct page but "Enter your PIN" replace to OTP
+after that enter wrong pin get msg "OTP mistmatch!!" replace to "wrong OTP"
+
+on Set new pin if we put enter pin & confirm pin is diffrent
+Get Msg "Wrong pin!" replace to "pin did not match"
+Enter button is not working
+
+
+Register as a client
+
+on Submit if we put set pin & confirm pin is diffrent
+Get Msg "Pin mistmatch!!" replace to "pin did not match"
+
+Click on ask a query in chat box
+we have put hello message but one window pop up there are lots of message 
+
+On email verification
+if we enter wrong otp
+get msg "Enter valid OTP" replace "Wrong OTP"
+
+Reset Pin
+enter New pin & Confirm Pin is diffrent
+Get Msg "Pin mistmatch!!" replace to "pin did not match"
+
+enter New pin & Confirm Pin is same
+Get Msg "Pin mistmatch!!" replace to "pin did not match"
+
+Profile picture is not upadted in header section
+
+

@@ -1,0 +1,372 @@
+/* dashboard css  */
+.sidebar-menu {
+  width: 231px;
+}
+
+
+.mt_15 {
+  margin-top: 15px;
+}
+
+.bg-info,
+.bg-info>a {
+  color: #fff !important;
+}
+
+.bg-info {
+  background-color: #17a2b8 !important;
+}
+
+.small-box {
+  border-radius: 0.25rem;
+  box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+  display: block;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.bg-info {
+  background-color: #043273 !important;
+}
+
+.small-box>.inner {
+  padding: 10px;
+}
+
+.col-lg-3 .small-box h3,
+.col-md-3 .small-box h3,
+.col-xl-3 .small-box h3 {
+  font-size: 2.2rem;
+}
+
+.small-box p {
+  z-index: 5;
+}
+
+.small-box .icon {
+  color: rgba(0, 0, 0, .15);
+  z-index: 0;
+}
+
+.icon>i.ion {
+  font-size: 70px;
+  top: 20px;
+}
+
+.small-box .icon>i {
+  font-size: 90px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  transition: -webkit-transform .3s linear;
+  transition: transform .3s linear;
+  transition: transform .3s linear, -webkit-transform .3s linear;
+}
+
+.small-box>.small-box-footer {
+  background-color: rgba(0, 0, 0, .1);
+  color: rgba(255, 255, 255, .8);
+  display: block;
+  padding: 3px 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  z-index: 10;
+}
+
+.notification {
+  font-size: 16px;
+  background: #bccadb;
+  color: #d83680;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 3px;
+}
+
+.notification1 {
+  float: right;
+  padding-top: 7px;
+
+}
+
+.badge1 {
+  display: inline-block;
+  min-width: 10px;
+  padding: 1px 5px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #f50489;
+  border-radius: 10px;
+  position: absolute;
+  right: 12px;
+  top: 3px;
+}
+
+.SealBox {
+  display: inline-block;
+  width: 100%;
+  margin: 4px;
+  flex-wrap: wrap;
+}
+
+.seofct-icon {
+  text-align: center;
+}
+
+.seo-fact {
+  flex-wrap: wrap;
+}
+
+.DashboardSeal {
+  width: 100%;
+  display: inline-flex;
+}
+
+/* dashboard css end  */
+/* admin style Table text wrap */
+
+tbody td p.text-wrap {
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+/*circular progressbasr css*/
+@keyframes growProgressBar {
+
+  0%,
+  33% {
+    --pgPercentage: 0;
+  }
+
+  100% {
+    --pgPercentage: var(--value);
+  }
+}
+
+@property --pgPercentage {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0;
+}
+
+div[role="progressbar"] {
+  --size: 12rem;
+  --fg: #ff9800;
+  --bg: #def;
+  --pgPercentage: var(--value);
+  animation: growProgressBar 3s 1 forwards;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(closest-side, white 80%, transparent 0 99.9%, white 0),
+    conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: calc(var(--size) / 5);
+  color: var(--fg);
+}
+
+div[role="progressbar"]::before {
+  counter-reset: percentage var(--value);
+  content: counter(percentage) '%';
+}
+
+.p-3 {
+  padding: 8px;
+}
+
+
+.dasProfile {
+  position: relative;
+  /* top: -60px; */
+  transform: translate(-2px, 10px);
+}
+
+
+.dasProfile img {
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  margin: auto;
+  object-fit: cover;
+}
+
+.categoryListCon {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.__type_modal {
+  border-radius: 10px;
+}
+
+/*end circular progressbasr css*/
+
+.b-radius-1 {
+  border-radius: 10px;
+}
+
+.reason_text {
+  width: 100%;
+  border: 1px solid #e8dada;
+  height: 50px;
+}
+
+
+/* yash css for admin start  */
+
+.content-header h1 {
+  padding-left: 14px;
+  padding-top: 8px;
+  border-bottom: 2px solid #1a243f;
+  padding-bottom: 5px;
+}
+
+#example_filter label {
+  float: right;
+  margin-top: 0px !important;
+}
+
+#example_wrapper {
+  padding: 5px;
+}
+
+.content-header h1 i {
+  padding-right: 9px;
+}
+
+.box-header {
+  color: #fff;
+  display: block;
+  padding: 10px;
+  position: relative;
+  background: #1a243f;
+}
+
+ul.for_set_new_w_admin li a {
+  color: black !important;
+  border-bottom: 1px solid #e1e1e1;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.for_set_new_w_admin {
+  width: 93%;
+  background: white;
+}
+
+.skin-blue .sidebar-menu>li:hover>a,
+.skin-blue .sidebar-menu>li.active>a {
+  color: #ecf0f5;
+  background: #607d8b;
+  border-left-color: #ffffff;
+  width: 100%;
+}
+
+.sidebar-menu {
+  width: 100%;
+}
+
+.box-body {
+  padding: 10px;
+}
+
+div#sidebar-wrapper {
+  z-index: 9999999999999999;
+}
+
+.small-box a {
+  text-decoration: none;
+  color: white;
+}
+
+.inner {
+  padding: 10px;
+}
+
+select#shortBtn {
+  color: black !important;
+  font-size: 14px;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.chng_cls_for_whist h1 {
+  color: white;
+}
+
+.text-align-justify {
+  text-align: justify;
+}
+
+.bg-light {
+  background: #fff;
+}
+
+
+
+.__sasf__border_ {
+  border: 1px solid #d1d1d1;
+}
+
+.saf__box1 {
+  background-color: #936dd7 !important;
+}
+
+.saf__box2 {
+  background-color: #3f51b5b8 !important
+}
+
+.saf__box3 {
+  background-color: #2196f3c2 !important;
+
+}
+
+.saf__box4 {
+  background-color: #337ab7;
+}
+
+.saf__box5 {
+  background-color: #009688;
+}
+
+.saf__box6 {
+  background-color: #2a586b;
+}
+
+.saf__box7 {
+  background-color: #3f51b5b8 !important;
+}
+
+.badge.btn-darger {
+  background-color: rgb(211, 76, 76);
+}
+
+
+/* End ##################  */
+
+/* sarkar css start */
+.super_admin {
+  color: #009688 !important;
+  font-weight: 700 !important;
+}
+
+.bg_color_bar {
+  background-color: #ffffff;
+}
+
+.date_pic {
+  height: 32px;
+}
+
+/* sarkar css end */
